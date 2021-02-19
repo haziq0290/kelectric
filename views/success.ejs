@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KE Billing OCR Authentication</title>
+    <link
+            rel="stylesheet"
+            href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"
+    />
+    <link
+            rel="stylesheet"
+            href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"
+    />
+    <style>
+        body {
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="page-header text-left">
+        <div class="row">
+            <div class="col-sm-6">
+                <h1></span> Welcome <strong> K-Electric </strong></h1>
+            </div>
+        </div>
+    </div>
+
+    <% if (processSuccess) { %>
+        <div class="alert alert-success alert-dismissible">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+            <strong>Success!</strong> Your Image Files Processing is Done.
+        </div>
+    <% } %>
+
+    <div class="row text-center">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
+            <div class="well">
+                <h3 class="text-danger">
+                    Upload File to GCP Bucket
+                </h3>
+                <% if (success) { %>
+                    <div class="alert alert-success alert-dismissible">
+                        <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+                        <strong>Success!</strong> Your Image File is Uploaded.
+                    </div>
+                <% } %>
+                <form action="/upload" method="POST" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <input type="file" multiple accept="image/*" class="form-control" name="file" required id=""/>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-block btn-danger">
+                            Upload
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-sm-3"></div>
+    </div>
+    <div class="row text-center">
+        <div class="col-sm-3"></div>
+        <% if (processImage && getResult) { %>
+            <div class="col-sm-3">
+                <form action="/result" method="get">
+                    <div class="form-group">
+                        <button class="btn btn-block btn-danger">
+                            Get Result
+                        </button>
+                    </div>
+                </form>
+            </div>
+        <% } %>
+        <% if (processImage) { %>
+            <div class="col-sm-3">
+                <form action="/process" method="get">
+                    <div class="form-group">
+                        <button class="btn btn-block btn-danger">
+                            Process Images
+                        </button>
+                    </div>
+                </form>
+            </div>
+        <% } %>
+        <div class="col-sm-3"></div>
+    </div>
+
+    <div class="row text-center">
+        <% if (getResult1) { %>
+            <div class="alert alert-success alert-dismissible">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+                <strong>Success!</strong> Your Result file is downloaded
+            </div>
+        <% } %>
+    </div>
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</html>

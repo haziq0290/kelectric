@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KE Billing OCR Authentication</title>
+    <link
+            rel="stylesheet"
+            href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"
+    />
+    <link
+            rel="stylesheet"
+            href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"
+    />
+    <style>
+        body {
+            word-wrap: break-word;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        table{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="page-header text-left">
+        <div class="row">
+            <div class="col-sm-6">
+                <h1></span> Welcome <strong> K-Electric </strong></h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="row text-left">
+        <div class="col-sm-12">
+            <table>
+                <tr style="border: black solid 2px">
+                    <th style="border: black solid 2px"><strong>Image</strong></th>
+                    <th style="border: black solid 2px"><strong>LCD</strong></th>
+                    <th style="border: black solid 2px"><strong>Result</strong></th>
+                </tr>
+                <% results.forEach(function(results1){ %>
+                    <tr>
+                        <td style="height: auto !important; width: auto !important"><img src="<%= results1.imageName %>"></td>
+                        <td style="height: auto; width: auto"><img src="<%= results1.imageLCDName %>"></td>
+                        <td><%= results1.result %></td>
+                    </tr>
+                <% }) %>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</html>

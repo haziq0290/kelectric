@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "infoarcdevteam",
+  "private_key_id": "5e0a7109ab90007e53c7c8b590699d7ec425773d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDvEinHFNa2VkiZ\nyzer8Y1Q9jHXldZiWxpTnpyz4NFknaGQtZ+6VzgEcBFwDkk8eG6b27iZYOCrgk4M\nOhpSmO+3vscL8mIjz5MOPqr1dq5cwnu5l7hYnh9LgMo1YYtsd0HAVN44yBG1znLy\nU6fD8jT04Kq+Xv9QYot1ifNlLXE2henuyRFE2ot9517n9FQoMskaNFvZHKMTJTdf\nKjJn1z0AOv19Y3n1CtlHvsqWFI23DHJ2FBZChwNRKHqIaRAK1dV9FnsC/mZSZex6\nw2oWTOava0LVImswpnCl6nI6BPp6kzL2xkJt5X5IJKXt7vyLIPHVM5udTMDdCJk+\n4B2OjmRhAgMBAAECggEAB3IUSS4R4ikNnEqVtTNx8Fmmjj1iqVAHNx+mEj0YJbnP\nZcNzp3j0FpagmGc9f9ZhXYB06e6i41HiLo54XOZZ9ZSfEYpu5N4gCUN0OBkGOlSC\nnXJcoa0/shk0qFUdeOyS6JOhaHkkrLnytFoyIU+6Yf5a8FBi7mTkooMVc0B8eZNC\nif6MF5pVyXobdA2vaSKAO3qW18ExjVPQQUdoJBhaKncm8CwAOCAs2fW6yty5QCpn\nuxs03cJnHlq6nKzf5XAxa/Bw36lxvD3MgTAFVTgaANq0INWvwnk8K6d49FXuk608\neiswQDCoSh4Fu4HvA+D/vXlLgyy1k2CZHA0c2ooyUQKBgQD7B9H/Fj9uQq5MeAus\njZwVjFHMjhvGH6m/jKvmp1szfdVejW0ugAz3GVP7qS6qqay936v/KIQoOC7KRC0n\nQKrNsIEwU8w8Nz2F97WcFRpPBbOlEo7AoHrz1qXN2pINkVozJOwrYHXyKS/lRVXy\nMjcMVwWOJ0ehdfxrMd6sc0WiqQKBgQDzzbvUMYqlLscHZo7Nu/u8fkLC1zubQgOq\n8RDiYqh3kg5RNQ6mqnd+uXBpBzFww3Agw5EjeHaTDR78QP7fD77+4KMHNuf9Q8fD\nFjGJk7Ctjg5pXAuclEnierb2Zy0+IUzMAsRpjfxLy+LzaNnxvEy0cfphOhTfrS3r\npCUAOiR++QKBgHC6RE0euoFTJF5mkid8uBjdGGaZclN4KIxCKXe8s7Hd0hFRxTPa\ngPf9wb8DbFdrNo1VgjFlCmPdRvXBw90apxkTKBCBsPdhfxlH8aATweq2jsOUH9LU\nviH9xBs7CddZ7H2HGR8phA2o/T8h8cR/VEUQVwhND1esWhvxGyOp6B1xAoGAANki\nYiaZ+OEkyB3POWACDDHUQaFGD9A2+w1DpcX6GBBmBFpO5r2JFOPIRFVGEsJbTYHg\nq2Lr5q8RAIepW1VOsMxPROMoA3WM6FzXZ0cgQjpQSoWLdMv/Rc5vfIP3YFP1VHBe\nBo/75Lec3oPq3jBtg+Mxn8z37Z9InZ1Ak7OgFOECgYEAyklY7lirMyQGpZXzYsLK\nLuGzrRYpBsuvRj8zKl+L7PIpXhttDKoFULMPtSWOv0q99lLkIP11FTz6sEVRdfkB\nonn2if4gpnjOdydDUfPWnF6BhWRXtI6Fb2QMUEVRebo9m2Gcr4FU5EWOYe6JYKCo\nwFDdLSZZJRmh1SnxqHhZGnw=\n-----END PRIVATE KEY-----\n",
+  "client_email": "kelectric@infoarcdevteam.iam.gserviceaccount.com",
+  "client_id": "105407874785111978528",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/kelectric%40infoarcdevteam.iam.gserviceaccount.com"
+}
